@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - main block
- * Decription: Use 'putchar' to print lowercase and then uppercase letters
- * Return : 0
+ * Description: Use `putchar` to print lowercase and then uppercase alphabet.
+ * Return: 0
  */
 int main(void)
 {
@@ -13,13 +13,17 @@ int main(void)
 		putchar(c);
 		c++;
 	}
-	
+
 	c = 'A';
+
 	while (c <= 'Z')
 	{
-		putchar('\n');
+		putchar(c);
 		c++;
 	}
+
+	putchar('\n');
+
 	return (0);
 }
 
