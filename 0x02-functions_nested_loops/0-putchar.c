@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <main.h>
+#include "main.h"
 /**
  * To write a program that prints _putchar, followed by a new line
  *Return: always 0 (success)
@@ -7,15 +6,14 @@
 
 int main(void)
 {
-	char s[9]="_putchar";
+	char text[9] = "_putchar";
 	int i=0;
-	while (i<8)
+	for (i=0; i<=8; i++)
 	{
-		_putchar(s[i]);
-		i++;
+		_putchar(text[i]);
 	}
 	_putchar('\n');
 
-	return(0);
+	return (0);
 }
 
