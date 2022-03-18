@@ -5,7 +5,7 @@
  * @a,@b - integers to be multiplied
  * Return: result of the operation
  */
-int mul(int a, int b);
+int mul(int a, int b)
 {
 	int c;
 	
